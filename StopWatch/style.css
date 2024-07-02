@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, pink,orange,yellow);
+}
+
+.head{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.container{
+    box-shadow: 10px 10px 5px 5px black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    min-height: 20vh;
+    margin: auto;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 5rem;
+    #hour,#min,#sec{
+        font-size: 5rem;
+        color: white;
+    }
+
+    .buttons{
+        min-height: 15vh;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+        button{
+            background-color: #ffbd03;
+            width: 30%;
+            height: 3rem;
+            font-size: 1.2rem;
+            padding: 5px;
+        }
+        
+    }
+}
+
+
